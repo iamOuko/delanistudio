@@ -70,6 +70,11 @@ img.logo{
     width: 10%;
     height: 10%;
 }
+img.mouse{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+}
 .introduction{
     position: absolute;
     top: 50%;
