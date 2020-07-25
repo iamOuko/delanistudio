@@ -83,3 +83,9 @@ img.mouse{
     text-align: center;
     color: #ffffff;
 }
+
+.container #about{
+    text-align: center;
+    padding-top: 20px;
+    
+}
