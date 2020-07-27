@@ -94,3 +94,7 @@ img.mouse{
     padding-top: 20px;
     width: 100%;
 }
+
+.card-deck{
+    text-align: center;
+}
