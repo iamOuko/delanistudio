@@ -98,7 +98,7 @@ form{
     width: 175px;
     height: 175px;
 }
-.icon1 {
+.icon2{
     
     width: 175px;
     float: left;
@@ -113,7 +113,7 @@ form{
     position: absolute;
     margin-top: 5%;
     margin-left: 5%;
-   visibility: hidden;
+    visibility: hidden;
 
   } 
 
@@ -121,5 +121,10 @@ form{
     opacity: 1;
     transition: opacity 0.3s ease-out 0s;
     visibility: visible;
+}
+
+.footer-info{
+    text-align: center;
+    padding-top: 20px;
 }
   
