@@ -117,7 +117,7 @@ form{
 
   } 
 
-  .icon1:hover .centered, .icon1 .icon1:hover .centered {
+  .icon2:hover .centered, .icon2 .icon2:hover .centered {
     opacity: 1;
     transition: opacity 0.3s ease-out 0s;
     visibility: visible;
