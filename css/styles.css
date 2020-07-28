@@ -54,24 +54,72 @@ img.mouse{
     padding-top: 20px;
     text-align: center;
 }
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  } 
-.contacts{
-    padding-top: 20px;
-}
-/* .form-group{
-    opacity: 0.5;
-} */
-.form-control{
+form{
    background: transparent;
    text-decoration-color: white;
+   margin: 0 auto;
+    width: 500px;
+}
+.form-control{
+    background: transparent;
+
 }
 
-.social-links{
+.form-group ::placeholder{
+    color: white;
+}
+.social-icons{
     text-align: center;
+    padding-top: 30px;
     
 }
+.contacts{
+    margin-top: 20px;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    padding-bottom: 50px;
+}
+
+.contacts h4{
+    text-align: center;
+    color: white;
+}
+.portfolio{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.grid{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.grid img{
+    width: 175px;
+    height: 175px;
+}
+.icon1 {
+    
+    width: 175px;
+    float: left;
+  }
+  .grid:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .centered {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+   visibility: hidden;
+
+  } 
+
+  .icon1:hover .centered, .icon1 .icon1:hover .centered {
+    opacity: 1;
+    transition: opacity 0.3s ease-out 0s;
+    visibility: visible;
+}
+  

@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ouko Studio</title>
+    <title>Delani Studio</title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
 
 </head>
 
@@ -23,7 +21,7 @@
                 <div class="introduction">
                     <img class="logo" src="assets/logo/logo.png" alt="">
                     <h4>WELCOME</h4>
-                    <h4>TO OUKO STUDIOS</h4>
+                    <h4>TO DELANI STUDIOS</h4>
                     <small>
                         AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
                     </small>
@@ -142,50 +140,81 @@
         </div>
     </div>
 
-    <div class="container">
-        <h4>PORTFOLIO</h4>
-        <div class="row">
-            <div class="column">
-                <img src="assets/portfolio/work1.jpg">
-                <img src="assets/portfolio/work2.jpg">
-                <img src="assets/portfolio/work3.jpg">
-                <img src="assets/portfolio/work4.jpg">
+    <div>
+        <h4 class="portfolio">PORTFOLIO</h4>
+        <div class="grid">
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="1" src="assets/portfolio/work1.jpg">
             </div>
-            <div class="column">
-                <img src="assets/portfolio/work5.jpg">
-                <img src="assets/portfolio/work6.jpg">
-                <img src="assets/portfolio/work7.jpg">
-                <img src="assets/portfolio/work8.jpg">
-
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="2" src="assets/portfolio/work2.jpg">
+            </div>
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="3" src="assets/portfolio/work3.jpg">
+            </div>
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="4" src="assets/portfolio/work4.jpg">
             </div>
 
         </div>
+        <div class="grid">
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="5" src="assets/portfolio/work5.jpg">
+            </div>
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="6" src="assets/portfolio/work6.jpg">
+            </div>
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="7" src="assets/portfolio/work7.jpg">
+            </div>
+            <div class="icon1">
+                <div class="centered">Delani</div>
+                <img id="8" src="assets/portfolio/work8.jpg">
+            </div>
+
+        </div>
+
     </div>
 
     <div class="container">
 
-        <img src="assets/backgrounds/c_image.jpg" alt="">
         <div class="contacts">
             <h4>CONTACT US</h4>
-            <form class="form-inline">
-                <div class="form-group">
-                    <label for="usr"></label>
-                    <input type="text" class="form-control" placeholder="Name">
+
+            <form class="form-horizontal" id="target">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder=" name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <textarea class="form-control" rows="5" placeholder="Your message here..."></textarea>
+                    </div>
+
                 </div>
                 <div class="form-group">
-                    <label for="pwd"></label>
-                    <input type="email" class="form-control" placeholder="email">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button class="button" type="submit" class="btn btn-outline-primary">Submit</button>
+                    </div>
                 </div>
+
             </form>
 
-            <div class="form-group">
-                <label for="comment"></label>
-                <textarea class="form-control" rows="5" placeholder="Your message here..."></textarea>
-            </div>
         </div>
     </div>
 
-    <div class="social-links">
+    <div class="social-icons">
         <img src="assets/social_icons/behance.png" alt="">
         <img src="assets/social_icons/dribble.png" alt="">
         <img src="assets/social_icons/facebook.png" alt="">
@@ -197,6 +226,11 @@
         <img src="assets/social_icons/twitter.png" alt="">
         <img src="assets/social_icons/you_tube.png" alt="">
     </div>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 
 </html>
